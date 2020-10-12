@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 
 export default function navbar() {
+    const [background, changeBackground] = useState("white")
     return (
-        <div>
+        <div className="navbar">
+            <Link to="/"> <h1>Magera's Pub</h1> </Link>
             <ul>
-                <li>Home</li>
-                <li>Drinks</li>
+                <Link to="drinks"> <li>Drinks</li> </Link>
+                <Link to="contact"> <li>Contact</li> </Link>
             </ul>
         </div>
     )
