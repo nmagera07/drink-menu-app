@@ -7,7 +7,7 @@ export default function container() {
         <div className="container">
 
             <div className="main-content">
-                <h1>Drink this alcohol bitches</h1>
+                <p>Welcome</p>
             </div>
         </div>
     )

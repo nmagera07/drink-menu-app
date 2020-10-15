@@ -6,6 +6,7 @@ body {
   background-image: url(./images/barbgv1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -16,8 +17,19 @@ body {
 }
 
 .navbar a {
-  margin-left: 10%;
+  width: 20%;
+}
+
+.navbar a li {
+  margin: 5%;
   color: white;
+  width: 50%;
+}
+
+.navbar h1 {
+  margin-left: 30%;
+  color: white;
+  font-size: 40px;
 }
 
 .navbar ul {
@@ -26,16 +38,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 30%;
 }
 
-.navbar ul li {
+.navbar ul a{
   color: white;
   text-decoration: none;
+  margin: 3%;
 }
 
-a:hover, a:visited, a:link
-{
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 8%;
+  margin-left: 5%;
+}
+
+.icons a {
+  /* margin: 50%; */
+  color: white;
+}
+
+a:hover, a:visited, a:link {
     text-decoration: none;
 }
 
@@ -45,22 +70,39 @@ a:hover, a:visited, a:link
   justify-content: center;
 }
 
-.main-content h1 {
+.main-content p {
   display: flex;
   align-items: center;
-  color: white;
+  /* color: white; */
   margin-top: 10%;
+  font-weight: 600; 
+  font-size: 40px;
+}
+
+.drinks {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  height: 83.5vh;
 }
 
 .drinks ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 .drinks ul a {
   display: flex;
   justify-content: space-evenly;
   margin: 2%;
-  color: white;
+  /* color: white; */
+}
+
+.drink-nav-bar {
+  background-color: white;
+  height: 75vh;
+  width: 50%;
+  margin: 0 auto;
 }
