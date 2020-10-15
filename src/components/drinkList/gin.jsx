@@ -2,7 +2,7 @@ import React from 'react'
 
 function gin() {
     return (
-        <div>
+        <div className="drinkName">
             <h3>Tom Collins</h3>
             <p>Lemon juice, Gin, Club soda</p>
 

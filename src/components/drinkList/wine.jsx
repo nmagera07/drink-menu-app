@@ -2,7 +2,7 @@ import React from 'react'
 
 function wine() {
     return (
-        <div>
+        <div className="drinkName">
             <h3>Red Wine</h3>
             <p>Jen Pfeiffer The Rebel Shiraz 2019</p>
             <p>Tom Shula Sweet Red 2018</p>

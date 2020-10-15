@@ -2,7 +2,7 @@ import React from 'react'
 
 function whiskey() {
     return (
-        <div>
+        <div className="drinkName">
             <h3>Whiskey Sour</h3>
             <p>Lemon juice, Simple syrup, Bourbon whiskey</p>
 

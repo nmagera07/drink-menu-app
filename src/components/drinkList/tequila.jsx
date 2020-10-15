@@ -2,7 +2,7 @@ import React from 'react'
 
 function tequila() {
     return (
-        <div>
+        <div className="drinkName">
             <h3>Classic Margarita</h3>
             <p>Lime juice, Triple sec, Simple syrup, Silver tequila</p>
 

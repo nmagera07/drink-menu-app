@@ -2,7 +2,7 @@ import React from 'react'
 
 function rum() {
     return (
-        <div>
+        <div className="drinkName">
             <h3>Rum & Coke</h3>
             <p>Coca-Cola, Spiced Rum</p>
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function beer() {
     return (
-        <div>
+        <div className="drinkName">
             <p>Harpoon Dunkin' Pumpkin</p>
             <p>Harpoon Dunkin' Coffee Porter</p>
             <p>Harpoon Dunkin' Bonst Kreme Stout</p>

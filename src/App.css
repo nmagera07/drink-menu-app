@@ -16,20 +16,17 @@ body {
   height: 75px;
 }
 
-.navbar a {
-  width: 20%;
-}
-
-.navbar a li {
+/* .navbar a li {
   margin: 5%;
   color: white;
   width: 50%;
-}
+} */
 
 .navbar h1 {
   margin-left: 30%;
   color: white;
   font-size: 40px;
+  width: 400px;
 }
 
 .navbar ul {
@@ -73,10 +70,14 @@ a:hover, a:visited, a:link {
 .main-content p {
   display: flex;
   align-items: center;
-  /* color: white; */
+  color: white;
   margin-top: 10%;
   font-weight: 600; 
   font-size: 40px;
+}
+
+.drink-container h1 {
+  color: white;
 }
 
 .drinks {
@@ -84,25 +85,51 @@ a:hover, a:visited, a:link {
   width: 50%;
   margin: 0 auto;
   height: 83.5vh;
+  padding-bottom: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .drinks ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   color: black;
+  padding: 0;
+  margin-bottom: 5%;
+  border-bottom: 2px solid rgb(212, 210, 210);
+  /* background-color: rgb(228, 224, 224); */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .drinks ul a {
   display: flex;
-  justify-content: space-evenly;
-  margin: 2%;
-  /* color: white; */
+  justify-content: center;
+  padding: 2%;
+  border-right: 1px solid rgb(212, 210, 210);
+  width: 80%;
+  font-weight: bold;
+  color: rgb(87, 160, 39);
+  font-size: 18px;
 }
 
-.drink-nav-bar {
-  background-color: white;
-  height: 75vh;
-  width: 50%;
-  margin: 0 auto;
+.drinks ul a:hover {
+  text-decoration: underline;
+}
+
+.drinks ul a:last-child {
+  border-right: none;
+}
+
+.drinkName {
+  font-size: 14px;
+}
+
+.drinkName h3 {
+  margin: 1%;
+}
+
+.drinkName p {
+  margin-bottom: 3%;
 }

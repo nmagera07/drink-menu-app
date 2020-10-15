@@ -12,7 +12,7 @@ import Wine from './drinkList/wine'
 function Drinks() {
     let { path, url } = useRouteMatch();
     return (
-        <div>
+        <div className="drink-container">
             <h1>DRINKS</h1>
             <div className="drinks">
             <ul>
