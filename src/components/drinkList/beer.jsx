@@ -3,7 +3,10 @@ import React from 'react'
 function beer() {
     return (
         <div>
-            <h1>Beer</h1>
+            <p>Harpoon Dunkin' Pumpkin</p>
+            <p>Harpoon Dunkin' Coffee Porter</p>
+            <p>Harpoon Dunkin' Bonst Kreme Stout</p>
+            <p>Harpoon Dunkin' Jelly Donut IPA</p>
         </div>
     )
 }
