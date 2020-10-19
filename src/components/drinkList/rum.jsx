@@ -30,8 +30,6 @@ function rum() {
             <h3>El Presidente</h3>
             <p>Blue Curacao, Dry Vermouth, Grenadine, Aged rum</p>
 
-            <h3>Strawberry Daiquiri</h3>
-            <p>Strawberries, Lime juice, Lemon juice, Sugar, Aged rum</p>
         </div>
     )
 }

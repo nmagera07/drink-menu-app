@@ -1,8 +1,6 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
 
 export default function Vodka() {
-    let { drinkId } = useParams()
     return (
         <div className="drinkName">
             <h3>White Russian</h3>
