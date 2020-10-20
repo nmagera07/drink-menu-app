@@ -162,7 +162,11 @@ a:hover, a:visited, a:link {
 
   .drinks ul {
     display: flex;
-    /* flex-wrap: wrap; */
+    color: white;
+  }
+
+  .drinks ul a {
+    color: white;
   }
 
   .drinkName {
